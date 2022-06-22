@@ -2,10 +2,9 @@ import pg from "pg"
 const { Pool } = pg
 
 export const pool = new Pool({
-	user: 'nus',
+	user: 'admin',
 	host: 'localhost',
-	database: 'nus_jun14',
-	password: '12345678',
+	database: 'nuswap',
+	password: 'ncepassword',
 	port: 5432
 })
-
